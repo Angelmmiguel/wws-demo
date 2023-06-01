@@ -12,6 +12,7 @@ const reply = (request) => {
   <body>
     <main>
       <h1>Hello from Wasm Workers Server 👋</h1>
+      <p>This is a branch in development!</p>
       <pre><code>Replying to ${request.url}
   Method: ${request.method}
   User Agent: ${request.headers.get("user-agent")}
